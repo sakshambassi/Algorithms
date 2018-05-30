@@ -4,7 +4,7 @@ using namespace std;
 
 void printMaxActivities(int s[],int f[], int n)
 {
-	int lastTime=f[0];
+	int LastTime=f[0];
 	for(int i=0; i<n; i++)
 	{
 		if(i==0)
@@ -13,10 +13,10 @@ void printMaxActivities(int s[],int f[], int n)
 		}
 		else
 		{
-			if(s[i]>=lastTime)
+			if(s[i]>=LastTime)
 			{
 				cout<<i<<" ";
-				lastTime=f[i];
+				LastTime=f[i];
 			}
 		}
 	}
