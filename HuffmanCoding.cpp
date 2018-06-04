@@ -16,7 +16,7 @@ struct MinHeapNode{
 
 struct compare						//used for priority_queue
 {
-	bool operator()(MinHeapNode *l, MinHeapNode *r)
+	bool operator()(MinHeapNode* l, MinHeapNode* r)
 	{
 		return (l->freq > r->freq);
 	}
