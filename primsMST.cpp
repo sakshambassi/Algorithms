@@ -4,8 +4,6 @@
 
 using namespace std;
 
-
-
 int minKey(bool mstSet[],int key[])
 {
 	int min = INT_MAX, min_index;
